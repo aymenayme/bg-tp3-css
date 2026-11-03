@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+		<link rel="stylesheet" href="style.css">
+		<title>Web Dev Academy</title>
+		<style>
+			.home-cards .card-icon { display: block; font-size: 64px; margin-bottom: 20px; }
+			.card-icon.html5 { color: #e34c26; }
+			.card-icon.css3 { color: #264de4; }
+			.card-icon.js { color: #f0c808; }
+			.card-icon.http { color: #2a9d8f; }
+			.card-icon.inspect { color: #6a4c93; }
+			.card-icon.design { color: #e76f51; }
+			.card-icon.script { color: #f4a261; }
+			.card-icon.network { color: #0067b8; }
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<nav class="main-nav">
+				<img src="../my_img/logo.png" alt="Web Dev Academy" class="logo">
+				<ul class="main-menu">
+					<li><a href="#">Accueil</a></li>
+					<li><a href="#dimensions">Cours</a></li>
+					<li><a href="#bigData">Approfondir</a></li>
+					<li><a href="#contact">Projet étudiant</a></li>
+				</ul>
+				<ul class="right-menu">
+					<li>
+						<a href="#dimensions" aria-label="Découvrir les chapitres du cours">
+							<i class="fas fa-search"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#contact" aria-label="Voir le projet étudiant">
+							<i class="fas fa-graduation-cap"></i>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<header class="showcase">
+				<h2>Web Dev Academy</h2>
+				<p>
+					Apprenez les quatre piliers du développement web : HTML, CSS, JavaScript et HTTP,
+					puis mettez-les en pratique dans un vrai projet.
+				</p>
+				<a href="#dimensions" class="btn">
+					Découvrir le programme
+					<i class="fas fa-chevron-right"></i>
+				</a>
+			</header>
+			<main>
+				<section id="dimensions" class="home-cards">
+					<div>
+						<i class="fab fa-html5 card-icon html5"></i>
+						<h3>HTML</h3>
+						<p>
+							HTML structure le contenu d'une page : titres, paragraphes, liens, images,
+							tableaux et formulaires, grâce à des balises sémantiques.
+						</p>
+						<a href="#bigData-intro">
+							Lire plus <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
+					<div>
+						<i class="fab fa-css3-alt card-icon css3"></i>
+						<h3>CSS</h3>
+						<p>
+							CSS met la page en forme : couleurs, polices, espacements et mises en page
+							adaptables avec Flexbox, Grid et les media queries.
+						</p>
+						<a href="#bigData-intro">
+							Lire plus <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
+					<div>
+						<i class="fab fa-js-square card-icon js"></i>
+						<h3>JavaScript</h3>
+						<p>
+							JavaScript rend la page vivante : il réagit aux actions de l'utilisateur,
+							modifie le DOM et échange des données avec le serveur.
+						</p>
+						<a href="#bigData-intro">
+							Lire plus <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
+					<div>
+						<i class="fas fa-exchange-alt card-icon http"></i>
+						<h3>HTTP</h3>
+						<p>
+							HTTP est le protocole qui relie navigateur et serveur : il définit les requêtes,
+							les réponses, les méthodes GET et POST et les codes de statut.
+						</p>
+						<a href="#bigData-intro">
+							Lire plus <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
+				</section>
+				<section id="bigData-intro">
+					<div class="content">
+						<h2>Comprendre comment fonctionne le web</h2>
+						<p>
+							Une page web naît de la combinaison de trois langages : HTML pour la structure,
+							CSS pour le style et JavaScript pour l'interactivité, le tout transporté par HTTP.
+							À la fin du cours, vous saurez les assembler pour réaliser votre propre site.
+						</p>
+						<a href="#bigData" class="btn">
+							Explorer les ressources
+							<i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
+				</section>
+				<section id="bigData" class="home-cards">
+					<div>
+						<i class="fas fa-sitemap card-icon inspect"></i>
+						<h3>Structurer avec HTML</h3>
+						<p>
+							Balises sémantiques, listes, tableaux et formulaires accessibles :
+							la documentation de référence pour bien démarrer.
+						</p>
+						<a href="https://developer.mozilla.org/fr/docs/Web/HTML" target="_blank" rel="noopener noreferrer">
+							En savoir plus <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
+					<div>
+						<i class="fas fa-paint-brush card-icon design"></i>
+						<h3>Styliser avec CSS</h3>
+						<p>
+							Sélecteurs, modèle de boîte, Flexbox, Grid et design responsive
+							pour des pages qui s'adaptent à tous les écrans.
+						</p>
+						<a href="https://developer.mozilla.org/fr/docs/Web/CSS" target="_blank" rel="noopener noreferrer">
+							En savoir plus <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
+					<div>
+						<i class="fas fa-bolt card-icon script"></i>
+						<h3>Animer avec JavaScript</h3>
+						<p>
+							Variables, fonctions, événements et manipulation du DOM
+							pour créer des interfaces interactives.
+						</p>
+						<a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
+							En savoir plus <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
+					<div>
+						<i class="fas fa-network-wired card-icon network"></i>
+						<h3>Comprendre HTTP</h3>
+						<p>
+							Requêtes, réponses, en-têtes et codes de statut :
+							ce qui se passe entre le navigateur et le serveur.
+						</p>
+						<a href="https://developer.mozilla.org/fr/docs/Web/HTTP" target="_blank" rel="noopener noreferrer">
+							En savoir plus <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
+				</section>
+				<section id="contact" class="ruban dark">
+					<div class="content">
+						<h2>Projet d'étudiant : medartai.com</h2>
+						<p>
+							Voici l'un des projets réalisés par nos étudiants après avoir terminé le cours.
+							Il illustre la combinaison de HTML, CSS et JavaScript au sein d'un site web complet.
+						</p>
+						<a href="https://medartai.com" class="btn" target="_blank" rel="noopener noreferrer">
+							Visiter medartai.com
+							<i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
+				</section>
+				<section class="follow">
+					<p>Pour aller plus loin :</p>
+					<a href="https://www.youtube.com/">
+						<span class="fab fa-youtube"></span>
+					</a>
+					<a href="https://github.com/">
+						<span class="fab fa-github-square"></span>
+					</a>
+					<a href="https://www.linkedin.com/">
+						<span class="fab fa-linkedin"></span>
+					</a>
+				</section>
+			</main>
+		</div>
+		<footer>
+			<section class="links">
+				<div class="links-inner">
+					<ul>
+						<li><h3>Les piliers</h3></li>
+						<li><a href="#dimensions">HTML</a></li>
+						<li><a href="#dimensions">CSS</a></li>
+						<li><a href="#dimensions">JavaScript</a></li>
+						<li><a href="#dimensions">HTTP</a></li>
+					</ul>
+					<ul>
+						<li><h3>Pratique</h3></li>
+						<li><a href="#bigData">Structurer</a></li>
+						<li><a href="#bigData">Styliser</a></li>
+						<li><a href="#bigData">Animer</a></li>
+						<li><a href="#bigData">Communiquer</a></li>
+					</ul>
+					<ul>
+						<li><h3>Outils</h3></li>
+						<li><a href="https://code.visualstudio.com/">VS Code</a></li>
+						<li><a href="https://validator.w3.org/">Validateur W3C</a></li>
+						<li><a href="https://developer.mozilla.org/fr/docs/Learn_web_development/Howto/Tools_and_setup/What_are_browser_developer_tools">Outils du navigateur</a></li>
+						<li><a href="https://github.com/">GitHub</a></li>
+					</ul>
+					<ul>
+						<li><h3>Ressources</h3></li>
+						<li><a href="https://developer.mozilla.org/fr/">MDN Web Docs</a></li>
+						<li><a href="https://www.w3.org/">W3C</a></li>
+						<li><a href="https://developer.mozilla.org/fr/docs/Web/HTTP">Guide HTTP</a></li>
+						<li><a href="https://developer.mozilla.org/fr/docs/Learn_web_development">Apprendre le web</a></li>
+					</ul>
+					<ul>
+						<li><h3>Web Dev Academy</h3></li>
+						<li><a href="#">À propos</a></li>
+						<li><a href="#bigData-intro">Présentation</a></li>
+						<li><a href="#contact">Projet étudiant</a></li>
+						<li><a href="https://medartai.com">medartai.com</a></li>
+					</ul>
+				</div>
+			</section>
+			<section class="sub-footer">
+				<div class="footer-inner">
+					<div>
+						<i class="fas fa-globe fa-2x"></i>
+						Français
+					</div>
+					<ul>
+						<li><a href="#">Plan du site</a></li>
+						<li><a href="#">Confidentialité</a></li>
+						<li><a href="#">Conditions d'utilisation</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li><a href="#">&copy; Web Dev Academy 2026</a></li>
+					</ul>
+				</div>
+			</section>
+		</footer>
+	</body>
+</html>
